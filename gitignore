@@ -1,0 +1,5 @@
+# Raw data and trained model (large) - download data separately
+*.csv
+*.pkl
+.ipynb_checkpoints/
+__pycache__/
