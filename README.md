@@ -27,7 +27,7 @@
 
 The score is stable across folds and matches the single split above. A plain 1-nearest-neighbour classifier performs just as well as the Random Forest, so the classes are almost perfectly separable by simple curve distance and the Random Forest adds no measurable advantage. This agrees with the original paper, where all four tested classifiers exceed 99.5%.
 
-For context, the original paper reports accuracy above 99.5% for four classifiers (including a 50-tree Random Forest) on this dataset over five train/test splits, so this score is in line with the published benchmark.
+For context, the original paper reports accuracy above 99.5% for four classifiers on this dataset over five train/test splits, so this score is in line with the published benchmark.
 
 ## Shuffled-label control
 Training the same Random Forest on shuffled species labels gives 0.1148 test accuracy, close to the 0.1077 expected by chance. The pipeline therefore does not leak label information.
